@@ -15,5 +15,6 @@ func main() {
 	if err != nil {
 		log.Fatalf("Failed to listen on: %v\n", err)
 	}
-	log.Printf("Listening on %s\n", addr)
+	log.Printf("Listening on %s\n", lis)
+
 }
